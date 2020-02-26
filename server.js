@@ -72,7 +72,9 @@ app
       if (err) {
         throw err;
       }
-      console.log(`'> Ready on http://localhost:${port}`);
+      if (dev) {
+        console.log(`'> Ready on http://localhost:${port}`);
+      }
     });
   })
   .catch(ex => {

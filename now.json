@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "SITE_TITLE": "4-Players of Colorado",
+      "GOOGLE_MAPS_API_KEY": "AIzaSyDwKWxOQTDbqunf8Apw0ye_3RAFo3rf25c",
+      "SITE_API": "https://4p-members-staging-px1qdr6da.now.sh"
+    }
+  }
+}
